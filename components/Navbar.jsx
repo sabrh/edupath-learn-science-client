@@ -8,6 +8,7 @@ const Navbar = () => {
     { name: "Home", href: "/" },
     { name: "About", href: "/about" },
     { name: "Tutorials", href: "/tutorials" },
+    { name: "Dashboard", href: "/dashboard" },
   ];
 
     return (

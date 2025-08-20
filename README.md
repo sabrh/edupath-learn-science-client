@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 📘 EduPath – HSC Learning Platform  
 
-## Getting Started
+EduPath is a full-stack **Next.js** web application designed for **HSC students in Bangladesh**. The platform provides structured **tutorial videos**, **progress tracking**, **MCQ quizzes**, and **personal notes**, helping students prepare effectively for subjects such as General Math, Higher Math, Botany, Zoology, Chemistry, Organic Chemistry, and ICT.  
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Live Demo  
+🔗 [EduPath Live](https://edupath-learn-science.netlify.app)   
+🔗 [Server GitHub Repo](https://github.com/sabrh/edupath-learn-science-server)  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## ✨ Features  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- 🎥 **Tutorial Videos by Chapter**  
+   - YouTube embedded videos organized by subject & chapter.  
 
-## Learn More
+- 📊 **Progress Tracking**  
+   - Mark chapters as completed.  
+   - Dashboard with progress bars for each subject.  
 
-To learn more about Next.js, take a look at the following resources:
+- 📝 **Personal Notes (CRUD)**  
+   - Add, edit, and delete notes under tutorial videos.  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- ❓ **Chapter-based Quizzes (MCQ)**  
+   - Take quizzes after completing chapters.  
+   - Instant scoring with review option.  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- 🔐 **Authentication & Authorization**  
+   - Email/password & Google login (NextAuth.js).  
+   - Private routes for quizzes, notes, and progress.  
 
-## Deploy on Vercel
+- 🌗 **Responsive Design**  
+   - Works across mobile, tablet, and desktop.  
+   - Dark/Light mode toggle.  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- ⚡ **Extra Features**  
+   - Loading spinners & custom 404 page.  
+   - Search & filter tutorials.  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+
+---
+
+## 🛠️ Tech Stack  
+
+### Frontend  
+- Next.js (App Router)  
+- Tailwind CSS + DaisyUI / ShadCN UI  
+- Framer Motion (animations)  
+- React Player (video integration)  
+- TanStack Query (data fetching)  
+- Axios  
+
+### Backend  
+- Next.js API Routes  
+- Node.js concepts inside Next.js  
+- JWT (for route protection)  
+- NextAuth.js (Google & Email login)  
+
+### Database  
+- MongoDB + Mongoose  
+- MongoDB Atlas  
+
+### Deployment 
+- Netlify (Client) 
+- Vercel (API)  
+- MongoDB Atlas (Database)  
+
+---
+
+## ⚙️ Environment Variables  
+
+Create a `.env.local` file in the root:  
+
+```env
+MONGODB_URI=your_mongodb_connection_string
+NEXTAUTH_SECRET=your_nextauth_secret
+GOOGLE_CLIENT_ID=your_google_client_id
+GOOGLE_CLIENT_SECRET=your_google_client_secret 
+
