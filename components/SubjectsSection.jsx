@@ -1,8 +1,8 @@
-import dbConnect from "@/lib/dbConnect";
+import dbConnect, { collectionNamesObj } from "@/lib/dbConnect";
 import SubjectCard from "./SubjectCard";
 
 export default async function SubjectsSection() {
-  const tutorialsCollection = dbConnect("tutorials");
+  const tutorialsCollection = dbConnect(collectionNamesObj.tutorialsCollection);
   const data = await tutorialsCollection.find({}).toArray();
 
   return (

@@ -15,7 +15,7 @@ export default function SubjectCard({ subject }) {
         <h2 className="card-title">{subject.subject}</h2>
         <p className="text-sm text-gray-600">{subject.chapters.length} Chapters Available</p>
         <div className="card-actions justify-end mt-2">
-          <Link href={`/tutorials/${subject.subjectId}`} className="btn btn-outline text-green-700 btn-sm">
+          <Link href={`/tutorials/${subject._id}`} className="btn btn-outline text-green-700 btn-sm">
             View Tutorials
           </Link>
         </div>

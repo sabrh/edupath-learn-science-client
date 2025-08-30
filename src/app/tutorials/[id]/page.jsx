@@ -1,30 +1,15 @@
-import VideoCard from "../../../../components/VideoCard";
-import NotesSection from "./sections/NotesSection";
-import QuizButton from "./sections/QuizButton";
+import dbConnect, { collectionNamesObj } from "@/lib/dbConnect";
+import { ObjectId } from "mongodb";
+import SubjectDetailsClient from "./SubjectDetailsClient";
 
-async function getTutorial(id) {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/tutorials/${id}`, { cache:"no-store" });
-  if (!res.ok) throw new Error("Tutorial not found");
-  return res.json();
-}
+export default async function SubjectDetailsPage({ params }) {
+  const tutorialsCollection = dbConnect(collectionNamesObj.tutorialsCollection);
+  const subject = await tutorialsCollection.findOne({
+    _id: new ObjectId(params.id),
+  });
 
-export default async function TutorialDetails({ params }) {
-  const tut = await getTutorial(params.id);
+  // Convert MongoDB ObjectId to string so it doesn't break serialization
+  const subjectData = JSON.parse(JSON.stringify(subject));
 
-  return (
-    <div className="p-6 max-w-4xl mx-auto">
-      <h1 className="text-2xl font-bold mb-2">
-        {tut.subject} — Chapter {tut.chapterNo}: {tut.chapterTitle}
-      </h1>
-
-      <VideoCard videoUrl={tut.videoUrl} title={tut.chapterTitle} />
-
-      <div className="mt-6 flex items-center justify-between">
-        <div className="text-sm text-gray-500">ID: {tut.id}</div>
-        <QuizButton chapterId={tut.id} />
-      </div>
-
-      <NotesSection chapterId={tut.id} />
-    </div>
-  );
+  return <SubjectDetailsClient subjectData={subjectData} />;
 }
