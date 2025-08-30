@@ -1,0 +1,80 @@
+[
+  {
+    "subject": "Chemistry 1",
+    "chapterNo": 1,
+    "chapterTitle": "Safe Use Of Laboratory",
+    "chapterId": "chem1-ch1",
+    "questions": [
+      { "q":"Which lab glassware is best for measuring precise volumes?", "options":["Beaker","Erlenmeyer flask","Graduated cylinder","Watch glass"], "correctIndex":2 },
+      { "q":"Which flame is safer for heating flammable solvents?", "options":["Luminous yellow","Non-luminous blue","Invisible","Orange"], "correctIndex":1 },
+      { "q":"What is the first action after a chemical splash on skin?", "options":["Apply ice","Rinse with water for 15 min","Bandage immediately","Use ethanol"], "correctIndex":1 },
+      { "q":"Which PPE is essential when handling acids?", "options":["Lab coat & gloves","Sandals","Wrist watch","Wool sweater"], "correctIndex":0 },
+      { "q":"Where should broken glass be disposed?", "options":["Regular bin","Fume hood","Sharps/glass bin","Sink"], "correctIndex":2 }
+    ]
+  },
+  {
+    "subject":"Chemistry 2",
+    "chapterNo":1,
+    "chapterTitle":"Environmental Chemistry",
+    "chapterId":"chem2-ch1",
+    "questions":[
+      { "q":"Main gas causing acid rain:", "options":["CO2","SO2","CH4","O3"], "correctIndex":1 },
+      { "q":"BOD indicates:", "options":["Thermal pollution","Organic pollution","Salinity","pH"], "correctIndex":1 },
+      { "q":"Photochemical smog major component:", "options":["SO3","PAN","CO","NO2"], "correctIndex":1 },
+      { "q":"Eutrophication mainly due to:", "options":["Phosphates & nitrates","Heavy metals","Oil spills","Ozone"], "correctIndex":0 },
+      { "q":"Green chemistry promotes:", "options":["More hazardous solvents","Higher waste","Atom economy","Lead catalysts"], "correctIndex":2 }
+    ]
+  },
+  {
+    "subject":"Physics 1",
+    "chapterNo":1,
+    "chapterTitle":"Physical World And Measurements",
+    "chapterId":"phy1-ch1",
+    "questions":[
+      { "q":"SI unit of luminous intensity:", "options":["candela","lumen","lux","nit"], "correctIndex":0 },
+      { "q":"Significant figures in 0.00420:", "options":["2","3","4","5"], "correctIndex":1 },
+      { "q":"Least count of a ruler with 1 mm divisions:", "options":["1 cm","1 mm","0.1 mm","0.01 mm"], "correctIndex":1 },
+      { "q":"Dimension of velocity:", "options":["L T^-1","L T^-2","M L T^-1","L^2 T"], "correctIndex":0 },
+      { "q":"Parallax method measures:", "options":["Stellar distances","Mass","Charge","Temperature"], "correctIndex":0 }
+    ]
+  },
+  {
+    "subject":"Physics 2",
+    "chapterNo":1,
+    "chapterTitle":"Thermodynamics",
+    "chapterId":"phy2-ch1",
+    "questions":[
+      { "q":"First law of thermodynamics is conservation of:", "options":["Momentum","Energy","Mass","Charge"], "correctIndex":1 },
+      { "q":"For an ideal gas, internal energy depends on:", "options":["Pressure","Volume","Temperature only","Both P and V"], "correctIndex":2 },
+      { "q":"In adiabatic process, heat transfer Q is:", "options":[">0","<0","=0","Undefined"], "correctIndex":2 },
+      { "q":"Entropy change in a reversible adiabatic process:", "options":["Increases","Decreases","Zero","Negative"], "correctIndex":2 },
+      { "q":"Carnot efficiency depends on:", "options":["Working gas","Cold & hot reservoirs","Pressure","Volume"], "correctIndex":1 }
+    ]
+  },
+  {
+    "subject":"Botany",
+    "chapterNo":1,
+    "chapterTitle":"Cell and its Structure",
+    "chapterId":"botany-ch1",
+    "questions":[
+      { "q":"Site of ATP production:", "options":["Golgi","Lysosome","Mitochondrion","Ribosome"], "correctIndex":2 },
+      { "q":"Cell wall of plants mainly composed of:", "options":["Chitin","Cellulose","Peptidoglycan","Glycogen"], "correctIndex":1 },
+      { "q":"Ribosomes are sites of:", "options":["Respiration","Protein synthesis","Lipid storage","Photosynthesis"], "correctIndex":1 },
+      { "q":"Chloroplast contains:", "options":["Cristae","Thylakoids","Cisternae","Chromatin"], "correctIndex":1 },
+      { "q":"Fluid mosaic model refers to:", "options":["Cell wall","Plasma membrane","Vacuole","Cytoskeleton"], "correctIndex":1 }
+    ]
+  },
+  {
+    "subject":"Zoology",
+    "chapterNo":1,
+    "chapterTitle":"Animal diversity and Classification",
+    "chapterId":"zoo-ch1",
+    "questions":[
+      { "q":"Binomial nomenclature proposed by:", "options":["Darwin","Linnaeus","Aristotle","Mendel"], "correctIndex":1 },
+      { "q":"Diploblastic animals lack:", "options":["Mesoderm","Ectoderm","Endoderm","None"], "correctIndex":0 },
+      { "q":"Notochord present in:", "options":["Echinodermata","Chordata","Arthropoda","Annelida"], "correctIndex":1 },
+      { "q":"Asymmetry is found in:", "options":["Cnidaria","Porifera","Chordata","Mollusca"], "correctIndex":1 },
+      { "q":"Coelom fully lined by mesoderm in:", "options":["Acoelomate","Pseudocoelomate","Coelomate","Hemocoel"], "correctIndex":2 }
+    ]
+  }
+]

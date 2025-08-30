@@ -1,0 +1,429 @@
+[
+  {
+    "subject": "Chemistry 1",
+    "subjectId": "chemistry-1",
+    "image": "/images/chemistry-1.jpg",
+    "chapters": [
+      {
+        "chapterNo": 1,
+        "chapterTitle": "Safe Use Of Laboratory",
+        "id": "chem1-ch1",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_CHEM1_1",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 2,
+        "chapterTitle": "Qualitative Chemistry",
+        "id": "chem1-ch2",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_CHEM1_2",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 3,
+        "chapterTitle": "Periodic Properties & Bonding in Elements",
+        "id": "chem1-ch3",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_CHEM1_3",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 4,
+        "chapterTitle": "Chemical Changes",
+        "id": "chem1-ch4",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_CHEM1_4",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 5,
+        "chapterTitle": "Vocational Chemistry",
+        "id": "chem1-ch5",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_CHEM1_5",
+        "isPublished": true
+      }
+    ]
+  },
+  {
+    "subject": "Chemistry 2",
+    "subjectId": "chemistry-2",
+    "image": "/images/chemistry-2.jpg",
+    "chapters": [
+      {
+        "chapterNo": 1,
+        "chapterTitle": "Environmental Chemistry",
+        "id": "chem2-ch1",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_CHEM2_1",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 2,
+        "chapterTitle": "Organic Chemistry",
+        "id": "chem2-ch2",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_CHEM2_2",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 3,
+        "chapterTitle": "Stoichiometric Chemistry",
+        "id": "chem2-ch3",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_CHEM2_3",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 4,
+        "chapterTitle": "Electro Chemistry",
+        "id": "chem2-ch4",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_CHEM2_4",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 5,
+        "chapterTitle": "Economic Chemistry",
+        "id": "chem2-ch5",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_CHEM2_5",
+        "isPublished": true
+      }
+    ]
+  },
+  {
+    "subject": "Physics 1",
+    "subjectId": "physics-1",
+    "image": "/images/physics-1.jpg",
+    "chapters": [
+      {
+        "chapterNo": 1,
+        "chapterTitle": "Physical World And Measurements",
+        "id": "phy1-ch1",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_PHY1_1",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 2,
+        "chapterTitle": "Vector",
+        "id": "phy1-ch2",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_PHY1_2",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 3,
+        "chapterTitle": "Dynamics",
+        "id": "phy1-ch3",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_PHY1_3",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 4,
+        "chapterTitle": "Newtonian Mechanics",
+        "id": "phy1-ch4",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_PHY1_4",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 5,
+        "chapterTitle": "Work, Energy And Power",
+        "id": "phy1-ch5",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_PHY1_5",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 6,
+        "chapterTitle": "Gravitation And Gravity",
+        "id": "phy1-ch6",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_PHY1_6",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 7,
+        "chapterTitle": "Structural Properties Of Matter",
+        "id": "phy1-ch7",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_PHY1_7",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 8,
+        "chapterTitle": "Periodic Motion",
+        "id": "phy1-ch8",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_PHY1_8",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 9,
+        "chapterTitle": "Wave",
+        "id": "phy1-ch9",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_PHY1_9",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 10,
+        "chapterTitle": "Ideal Gas And Kinetic Energy",
+        "id": "phy1-ch10",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_PHY1_10",
+        "isPublished": true
+      }
+    ]
+  },
+  {
+    "subject": "Physics 2",
+    "subjectId": "physics-2",
+    "image": "/images/physics-2.jpg",
+    "chapters": [
+      {
+        "chapterNo": 1,
+        "chapterTitle": "Thermodynamics",
+        "id": "phy2-ch1",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_PHY2_1",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 2,
+        "chapterTitle": "Electrostatic",
+        "id": "phy2-ch2",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_PHY2_2",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 3,
+        "chapterTitle": "Current Electricity",
+        "id": "phy2-ch3",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_PHY2_3",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 4,
+        "chapterTitle": "Magnetic Effects Of Current And Magnetism",
+        "id": "phy2-ch4",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_PHY2_4",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 5,
+        "chapterTitle": "Electromagnetic Induction And Alternative Current",
+        "id": "phy2-ch5",
+        "videoUrl": "https://www.youtube.comwatch?v=VIDEO_ID_PHY2_5",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 6,
+        "chapterTitle": "Geometrical Optics",
+        "id": "phy2-ch6",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_PHY2_6",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 7,
+        "chapterTitle": "Physical Optics",
+        "id": "phy2-ch7",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_PHY2_7",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 8,
+        "chapterTitle": "Introduction Of Modern Physics",
+        "id": "phy2-ch8",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_PHY2_8",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 9,
+        "chapterTitle": "Atomic Model And Nuclear Physics",
+        "id": "phy2-ch9",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_PHY2_9",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 10,
+        "chapterTitle": "Semiconductor And Electronics",
+        "id": "phy2-ch10",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_PHY2_10",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 11,
+        "chapterTitle": "Astronomy",
+        "id": "phy2-ch11",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_PHY2_11",
+        "isPublished": true
+      }
+    ]
+  },
+  {
+    "subject": "Botany",
+    "subjectId": "botany",
+    "image": "/images/botany.jpg",
+    "chapters": [
+      {
+        "chapterNo": 1,
+        "chapterTitle": "Cell and its Structure",
+        "id": "botany-ch1",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_BOT_1",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 2,
+        "chapterTitle": "Cell Division",
+        "id": "botany-ch2",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_BOT_2",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 3,
+        "chapterTitle": "Cell Chemistry",
+        "id": "botany-ch3",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_BOT_3",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 4,
+        "chapterTitle": "Microorganism",
+        "id": "botany-ch4",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_BOT_4",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 5,
+        "chapterTitle": "Algae and fungi",
+        "id": "botany-ch5",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_BOT_5",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 6,
+        "chapterTitle": "Bryophyta and Pteridophyta",
+        "id": "botany-ch6",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_BOT_6",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 7,
+        "chapterTitle": "Gymnosperm and Angiosperm",
+        "id": "botany-ch7",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_BOT_7",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 8,
+        "chapterTitle": "Tissue and Tissue system",
+        "id": "botany-ch8",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_BOT_8",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 9,
+        "chapterTitle": "Plant Physiology",
+        "id": "botany-ch9",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_BOT_9",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 10,
+        "chapterTitle": "Reproduction of Plants",
+        "id": "botany-ch10",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_BOT_10",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 11,
+        "chapterTitle": "Biotechnology",
+        "id": "botany-ch11",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_BOT_11",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 12,
+        "chapterTitle": "Environnement Distribution and Conservation of Organisms",
+        "id": "botany-ch12",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_BOT_12",
+        "isPublished": true
+      }
+    ]
+  },
+  {
+    "subject": "Zoology",
+    "subjectId": "zoology",
+    "image": "/images/zoology.jpg",
+    "chapters": [
+      {
+        "chapterNo": 1,
+        "chapterTitle": "Animal diversity and Classification",
+        "id": "zoo-ch1",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_ZOO_1",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 2,
+        "chapterTitle": "Animal's Identity",
+        "id": "zoo-ch2",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_ZOO_2",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 3,
+        "chapterTitle": "Human Physiology: Digestion and Absorption",
+        "id": "zoo-ch3",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_ZOO_3",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 4,
+        "chapterTitle": "Human Physiology: Blood and Circulation",
+        "id": "zoo-ch4",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_ZOO_4",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 5,
+        "chapterTitle": "Human Physiology: Respiratory Process and Respiration",
+        "id": "zoo-ch5",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_ZOO_5",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 6,
+        "chapterTitle": "Human Physiology: Excretory Products and Excretion",
+        "id": "zoo-ch6",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_ZOO_6",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 7,
+        "chapterTitle": "Human Physiology: Locomotion and Movement of Organ",
+        "id": "zoo-ch7",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_ZOO_7",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 8,
+        "chapterTitle": "Human Physiology: Coordination and Control",
+        "id": "zoo-ch8",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_ZOO_8",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 9,
+        "chapterTitle": "Continuance of Human Life",
+        "id": "zoo-ch9",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_ZOO_9",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 10,
+        "chapterTitle": "Immunity of the Human Body",
+        "id": "zoo-ch10",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_ZOO_10",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 11,
+        "chapterTitle": "Genetics and Evolution",
+        "id": "zoo-ch11",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_ZOO_11",
+        "isPublished": true
+      },
+      {
+        "chapterNo": 12,
+        "chapterTitle": "Animal behavior",
+        "id": "zoo-ch12",
+        "videoUrl": "https://www.youtube.com/watch?v=VIDEO_ID_ZOO_12",
+        "isPublished": true
+      }
+    ]
+  }
+]

@@ -1,8 +1,11 @@
+import Banner from "../../components/Banner";
+import SubjectsSection from "../../components/SubjectsSection";
 
 export default function Home() {
   return (
-    <div>
-      <h1>Hello World</h1>
-    </div>
+    <>
+    <Banner />
+    <SubjectsSection />
+    </>
   );
 }

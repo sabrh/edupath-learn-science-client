@@ -6,13 +6,12 @@ const Navbar = () => {
         
      const links = [
     { name: "Home", href: "/" },
-    { name: "About", href: "/about" },
     { name: "Tutorials", href: "/tutorials" },
     { name: "Dashboard", href: "/dashboard" },
   ];
 
     return (
-        <div className="navbar shadow-sm md:px-16">
+        <div className="navbar fixed top-0 left-0 w-full shadow-sm md:px-16 bg-base-100 z-50">
 
             <div className="navbar-start">
                 <div className="dropdown">
@@ -29,7 +28,7 @@ const Navbar = () => {
                     ))}
                 </ul>
                 </div>
-                <Link href='/' className="flex items-center font-extrabold text-2xl gap-x-1 text-green-600"><LuBookOpenText />EduPath</Link>
+                <Link href='/' className="flex items-center font-extrabold text-2xl gap-x-1"><LuBookOpenText className="text-green-700" size={35} />Edu<span className="text-green-700">Path</span></Link>
             </div>
 
             <div className="navbar-center hidden lg:flex">
@@ -45,7 +44,10 @@ const Navbar = () => {
            <div className="navbar-end relative items-center gap-x-4 md:ml-10">
         
             <Link href="/login"
-                className="btn btn-success">SignIn
+                className="btn rounded-lg">Sign In
+            </Link>
+            <Link href="/register"
+                className="btn btn-outline rounded-lg hover:bg-green-600">Sign Up
             </Link>
             
             </div>

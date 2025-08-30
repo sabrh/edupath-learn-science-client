@@ -1,6 +1,6 @@
-# 📘 EduPath – HSC Learning Platform  
+# 📘 EduPath – HIGH School Science Learning Platform  
 
-EduPath is a full-stack **Next.js** web application designed for **HSC students in Bangladesh**. The platform provides structured **tutorial videos**, **progress tracking**, **MCQ quizzes**, and **personal notes**, helping students prepare effectively for subjects such as General Math, Higher Math, Botany, Zoology, Chemistry, Organic Chemistry, and ICT.  
+EduPath is a full-stack **Next.js** web application designed for learning Science in High School level. The platform provides structured **tutorial videos**, **progress tracking**, **MCQ quizzes**, and **personal notes**, helping students prepare effectively for subjects such as Botany, Zoology, Chemistry and Physics.  
 
 ---
 
